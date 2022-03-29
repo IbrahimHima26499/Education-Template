@@ -1,0 +1,26 @@
+/* Media Qureies */
+/* Small Screens */
+.container {
+  @include breakpoints(small) {
+    width: 750px;
+  }
+}
+/* Medium Screens */
+.container {
+  @include breakpoints(medium) {
+    width: 970px;
+  }
+}
+/* Large Screens */
+.container {
+  @include breakpoints(large) {
+    width: 1170px;
+  }
+}
+/* X-Large Screens */
+.container {
+  @include breakpoints(x-large) {
+    width: 1370px;
+  }
+}
+/* Media Qureies */
